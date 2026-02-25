@@ -42,18 +42,13 @@ To **design and analyze** a Common Source (CS) amplifier using an NMOS transisto
 The **Common Source (CS) amplifier** is the most fundamental MOSFET amplifier configuration. It is the MOSFET equivalent of the BJT Common Emitter amplifier.
 
 ```
-         VDD (1.5V)
-            |
-           [RD]  ← Drain Resistor
-            |
-            +-----------> Vout
-            |
-          [NMOS]
-           /|\
-          / | \
-        D   G   S
-            |   |
-           Vin  GND
+Circuit Design
+![Circuit Diagram](circuit1.png)
+
+## Output Waveform
+
+![Output](output.png)
+        
 ```
 
 | Terminal | Role |
