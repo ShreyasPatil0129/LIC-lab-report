@@ -43,7 +43,7 @@ The **Common Source (CS) amplifier** is the most fundamental MOSFET amplifier co
 
 ```
 Circuit Design
-![image alt](https://github.com/ShreyasPatil0129/LIC-lab-report/blob/main/Screenshot%202026-02-25%20233626.png?raw=true)
+![image alt](https://github.com/ShreyasPatil0129/LIC-lab-report/blob/26cb043d90363d182f13fb043b0e2c26496e18c6/Screenshot%202026-02-25%20233626.png)
 
 ```
 
