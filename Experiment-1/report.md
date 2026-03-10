@@ -34,6 +34,9 @@ To **design and analyze** a Common Source (CS) amplifier using an NMOS transisto
 | Channel Length (L_n) | 180 nm |
 
 ---
+Circuit Design :
+
+![image alt](https://github.com/ShreyasPatil0129/LIC-lab-report/blob/26cb043d90363d182f13fb043b0e2c26496e18c6/Screenshot%202026-02-25%20233626.png)
 
 ## 2. Theory & Background
 
@@ -348,17 +351,20 @@ CL drain out 1p
 
 ### 8.4 Expected Waveforms
 
-```
 DC Response:
-<img width="844" height="309" alt="Screenshot 2026-02-26 000031" src="https://github.com/user-attachments/assets/7dfa802c-7538-4880-b895-aea092abfc16" />
+
+![image alt](https://github.com/ShreyasPatil0129/LIC-lab-report/blob/839472a22b2d6395576724dfa88af0d527bff521/Screenshot%202026-02-26%20000031.png)
 
 Transient Response:
-<img width="1917" height="848" alt="Screenshot 2026-02-26 000552" src="https://github.com/user-attachments/assets/3dff8477-88b5-4f45-a687-a536e26ebf03" />
+
+![image alt](https://github.com/ShreyasPatil0129/LIC-lab-report/blob/839472a22b2d6395576724dfa88af0d527bff521/Screenshot%202026-02-26%20000552.png)
+
 
 AC Response:
-<img width="1909" height="833" alt="Screenshot 2026-02-26 001043" src="https://github.com/user-attachments/assets/59195180-9357-4346-9c1b-f620481d9585" />
 
-```
+![image alt](https://github.com/ShreyasPatil0129/LIC-lab-report/blob/839472a22b2d6395576724dfa88af0d527bff521/Screenshot%202026-02-26%20001043.png)
+
+
 
 ---
 
