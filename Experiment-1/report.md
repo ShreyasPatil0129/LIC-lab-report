@@ -45,10 +45,6 @@ The **Common Source (CS) amplifier** is the most fundamental MOSFET amplifier co
 Circuit Design
 ![Circuit Diagram](circuit1.png)
 
-## Output Waveform
-
-![Output](output.png)
-        
 ```
 
 | Terminal | Role |
