@@ -41,11 +41,6 @@ To **design and analyze** a Common Source (CS) amplifier using an NMOS transisto
 
 The **Common Source (CS) amplifier** is the most fundamental MOSFET amplifier configuration. It is the MOSFET equivalent of the BJT Common Emitter amplifier.
 
-```
-Circuit Design
-![image alt](https://github.com/ShreyasPatil0129/LIC-lab-report/blob/26cb043d90363d182f13fb043b0e2c26496e18c6/Screenshot%202026-02-25%20233626.png)
-
-```
 
 | Terminal | Role |
 |----------|------|
