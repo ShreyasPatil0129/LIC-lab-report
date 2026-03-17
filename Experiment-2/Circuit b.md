@@ -48,33 +48,13 @@ The circuit consists of:
 
 The key advantage over a resistive load (Circuit 1) is that M3 mirrors the signal current from the opposite half of the differential pair back to the Vout node, causing both halves of the differential signal to add constructively — doubling the effective transconductance and producing higher gain.
 
-```
-        VDD = 1.5 V
-             |
-        ─────┴─────
-        |    M3    |   CMOSP active mirror load
-        |  G ← V3 = 0.85 V
-        ─────┬─────
-             |
-            Vout  ◄── Single-ended output
-             |
-        ─────┴─────
-        |    M1    |   CMOSN differential input transistor
-        |  G ← V1 (SINE 0.85 10m 1000)
-        ─────┬─────
-             |
-            VP  (tail node ≈ 0.218 V)
-             |
-        ─────┴─────
-        |    M2    |   CMOSN tail current source
-        |  G ← V2 = 0.65 V
-        ─────┴─────
-            GND
-```
+![image alt](https://github.com/ShreyasPatil0129/LIC-lab-report/blob/58303205a28fff7f5e45495ce147e37476f57872/Circuit%20-02(1).png)
 
 ---
 
 ## DC ANALYSIS (BIAS DESIGN)
+
+![image alt](https://github.com/ShreyasPatil0129/LIC-lab-report/blob/58303205a28fff7f5e45495ce147e37476f57872/Circuit%20-02(2).png)
 
 ### 1. Power Constraint and Tail Current
 
@@ -339,6 +319,8 @@ C = 1 / (2π × ro × f_BW)
 > Input: SINE(0.85  10m  1000) — DC offset 0.85 V, amplitude 10 mV, frequency 1 kHz
 > Simulation: `.tran 5m`
 
+![image alt](https://github.com/ShreyasPatil0129/LIC-lab-report/blob/58303205a28fff7f5e45495ce147e37476f57872/Circuit%20-02(3).png)
+
 From LTspice cursor measurements:
 
 ```
@@ -387,6 +369,8 @@ This matches the `.op` result Vout = 0.8502 V exactly.
 **Figure 3: Bode Plot — V(vout) Gain (dB) and Phase**
 
 > Simulation: `.ac dec 10 1 100GHz`
+
+![image alt](https://github.com/ShreyasPatil0129/LIC-lab-report/blob/58303205a28fff7f5e45495ce147e37476f57872/Circuit%20-02(4).png)
 
 ### Results
 
