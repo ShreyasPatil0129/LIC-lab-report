@@ -43,29 +43,9 @@ L<sub>n</sub> = 180 nm
 
 ---
 
-## CIRCUIT DIAGRAM
+## CIRCUIT DIAGRAM:
 
-```
-              VDD (1.5 V)
-                  |
-        +---------+---------+
-        |                   |
-      [M1]               [M1]         <- PMOS (CMOSP) Active Load
-     CMOSP             CMOSP
-    G=0.85V           G=0.85V
-        |                   |
-        +---------+---------+-------- Vout = 0.75 V
-                  |
-                [M2]                  <- NMOS (CMOSN) Amplifying Device
-               CMOSN
-            G=0.75V
-                  |
-                  +---- VS = 0.1 V
-                  |
-                [RS]                  <- Source Resistor (500 Ohm)
-                  |
-                 GND
-```
+![image alt](https://github.com/ShreyasPatil0129/LIC-lab-report/blob/58303205a28fff7f5e45495ce147e37476f57872/Circuit%20-01(1).png)
 
 **LTSpice Component Summary**
 
@@ -82,6 +62,9 @@ L<sub>n</sub> = 180 nm
 ---
 
 ## DC ANALYSIS (BIAS DESIGN)
+
+![image alt](https://github.com/ShreyasPatil0129/LIC-lab-report/blob/58303205a28fff7f5e45495ce147e37476f57872/Circuit%20-01(2).png)
+
 
 ### 1. Overdrive Voltage Selection
 
@@ -221,7 +204,10 @@ The negative sign confirms **phase inversion** — characteristic of the CS conf
 
 **Input Signal:** SINE(0.75 V, 10 mV amplitude, 1 kHz) — DC offset at V<sub>G,NMOS</sub>
 
-**Simulation Command:** `.tran 10m`
+**Simulation Command: `.tran 10m`
+
+![image alt](https://github.com/ShreyasPatil0129/LIC-lab-report/blob/58303205a28fff7f5e45495ce147e37476f57872/Circuit%20-01(3).png)
+
 
 The output signal is amplified and **phase-inverted** relative to the input, confirming CS amplifier behavior.
 
@@ -234,6 +220,8 @@ $$A_v = \frac{V_{out(pp)}}{V_{in(pp)}} \approx 3.6 \ \text{V/V} \quad (11.1 \ \t
 ## AC ANALYSIS
 
 **Simulation Command:** `.ac dec 100 1 100G`
+
+![image alt](https://github.com/ShreyasPatil0129/LIC-lab-report/blob/58303205a28fff7f5e45495ce147e37476f57872/Circuit%20-01(4).png)
 
 ### Bandwidth
 
